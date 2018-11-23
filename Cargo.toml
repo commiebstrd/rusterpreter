@@ -1,0 +1,16 @@
+cargo-features = ["edition"]
+
+[package]
+name = "rusterpreter"
+version = "0.1.0"
+authors = ["Spenser Reinhardt <commiebstrd@protonmail.comgit config --global user.name Spenser>"]
+edition = '2018'
+
+[lib]
+path = "lib/lib.rs"
+
+[[bin]]
+name = "rusterpreter"
+path = "bin/main.rs"
+
+[dependencies]
